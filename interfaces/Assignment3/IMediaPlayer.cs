@@ -4,13 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace interfaces.Assignment3
-{
-    internal interface IMediaPlayer
+
+    public interface IMediaPlayer
     {
         void Play();
         void Stop();
 
 
     }
-}
+
